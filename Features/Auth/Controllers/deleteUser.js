@@ -8,7 +8,7 @@ const deleteUser = async (req, res, next) => {
         res.status(200).send(`Deleted User With id: ${id}`)
     }
     else {
-        res.status(404).send(`User Was Not Found With id ${id}`)
+        res.status(404).send(`User With id ${id} Was Not Found `)
     }
 }
 
